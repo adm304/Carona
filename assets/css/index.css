@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Baloo 2';
+}
+
+.wrapper {
+  width: 90%;
+  height: 125%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 4vh;
+  margin-top: 8vh;
+}
+
+.googleMap {
+  height: 48%;
+  width: 100%;
+}
+
+.googleMap > iframe{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.divButtonWrapper {
+  margin-top: 9%;
+}
+
+.linkButtonWrapper {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60%;
+  width: 0;
+}
+
+.buttonWrapper {
+  border: none;
+  background: #424242;
+  border-radius: 90px;
+  width: 83vw;
+  height: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33%;
+}
+
+.textButtonWrapper {
+  color: #ffffff;
+  font-family: 'Baloo 2';
+  font-size: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+  font-size: 115%;
+}
+
+.link {
+  color: #53acff;
+  font-family: 'baloo 2';
+}

@@ -25,13 +25,13 @@ body {
 }
 
 .title {
-  margin-bottom: 4vh;
-  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-top: 13vh;
 }
 
 .image {
-  height: 80vw;
-  margin-bottom: 9%;
+  height: 32%;
+  margin-bottom: 5vh;
 }
 
 .image > img{
@@ -59,14 +59,15 @@ body {
 }
 
 .icon {
-  width: 8.5vw;
+  height: 5vh;
   margin-left: 0.5vh;
+  margin-right: 1vw;
 }
 
 .textButtonWrapper {
   color: #ffffff;
   font-family: 'Baloo 2';
-  font-size: 5.6vw;
+  font-size: 5.5vw;
 }
 
 .link {

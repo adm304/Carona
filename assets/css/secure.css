@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
   font-family: 'Baloo 2';
 }
 
@@ -26,11 +26,12 @@ body {
 
 .title {
   margin-bottom: 4vh;
-  margin-top: 8vh;
+  margin-top: 2vh;
 }
 
 .image {
-  height: 36vw;
+  height: 80vw;
+  margin-bottom: 9%;
 }
 
 .image > img{
@@ -38,42 +39,39 @@ body {
 }
 
 .divButtonWrapper {
-  margin-top: 9%;
+  margin-bottom: 2.5vh;
 }
 
 .linkButtonWrapper {
   text-decoration: none;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 60%;
-  width: 0px;
 }
 
 .buttonWrapper {
   border: none;
   background: #424242;
   border-radius: 90px;
-  width: 83vw;
+  width: 75vw;
   height: 6vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-top: 33%;
+  justify-content: left;
+}
+
+.icon {
+  width: 8.5vw;
+  margin-left: 0.5vh;
 }
 
 .textButtonWrapper {
   color: #ffffff;
   font-family: 'Baloo 2';
-  font-size: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-size: 5.6vw;
 }
 
 .link {
   color: #53acff;
   font-family: 'baloo 2';
+  font-size: 3.5vh;
 }
+
